@@ -38,13 +38,9 @@ All supplementary data can be found in the `supplementary_data` directory.
 
 | Dataset | Description | Reference |
 | --- | --- | --- |
-| BA_Topology_Files/10k_Load.csv | Nodal information including number IDs, names, area names, voltages, angles, locations, and loads within 10000-nodal topology of the U.S. Western Interconnection | [ACTIVSg10k](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg10k/) |
-| BA_Topology_Files/BAs | Names and abbreviations of 28 balancing authorities considered in the U.S. Western Interconnection | Created by authors |
-| BA_Topology_Files/line_params_125.csv | Names, reactances and thermal limits of transmission lines within reduced 125-nodal topology of the U.S. Western Interconnection | Created by authors |
-| BA_Topology_Files/Nodal_information.csv | Number IDs, names, area names, locations, transmission planning regions, and load weights of individual nodes within reduced 125-nodal topology of the U.S. Western Interconnection  | Created by authors |
+| BA_Topology_Files/BAs.csv | Names and abbreviations of 28 balancing authorities considered in the U.S. Western Interconnection | Created by authors |
 | BA_Topology_Files/nodes_to_BA_state.csv | Nodal information including number IDs, names, area names, voltages, angles, locations, loads, geometries, balancing authority and state information within 10000-nodal topology of the U.S. Western Interconnection | [ACTIVSg10k](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg10k/) (Modified by authors) |
 | BA_Topology_Files/selected_nodes_125.csv | Number IDs of the selected nodes within reduced 125-nodal topology of the U.S. Western Interconnection  | Created by authors |
-| Shapefiles/NERC_regions | Folder including shapefile of North American Electric Reliability Corporation (NERC) regions | [HIFLD](https://hifld-geoplatform.hub.arcgis.com/maps/6b2af23c67f04f4cb01d88c61aaf558a) |
 | Shapefiles/US_states | Folder including shapefile of U.S. census states | [U.S. EIA](https://atlas.eia.gov/maps/774019f31f8549c39b5c72f149bbe74e) |
 | Shapefiles/WECC_IM3_BAs | Folder including shapefile of WECC balancing authorities | Created by authors |
 
@@ -69,9 +65,6 @@ Use the scripts/files found in the `workflow` directory to reproduce the experim
 | --- | --- |
 | `GO_config.yml` | Configuration file containing paths to the input/output files of GO |
 | `GO_simulation.py` | Script that creates GO model input database and starts GO model simulation |
-| `TEP_config.yml` | Configuration file containing paths to the input/output files and model settings of TEP |
-| `TEP_setup.py` | Script that prepares TEP model input database |
-| `TEP_simulation.py` | Script that starts TEP model simulation |
 
 ### Steps of running GO
 1. Example `GO_config.yml` file includes paths to the inputs/outputs for scenario `rcp45cooler_ssp3` and year `2050`. Determine which scenario/year you would like to run and alter the paths in `GO_config.yml` so that they point to the specific [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
@@ -80,16 +73,6 @@ Use the scripts/files found in the `workflow` directory to reproduce the experim
 4. Change `my_solver_name` parameter in `GO_simulation.py` script so that it matches the solver you would like to use. Make sure that the solver you would like to use can be accessed via [pyomo](https://github.com/Pyomo/pyomo) package.
 5. Run `GO_simulation.py` and analyze/compare the outputs.
 6. Restart from step 1 for every different scenario/year you would like to simulate. 
-
-### Steps of running TEP
-1. Example `TEP_config.yml` file includes paths to the inputs/outputs for scenario `rcp45cooler_ssp3` and year `2050`. Determine which scenario/year you would like to run and alter the paths in `TEP_config.yml` so that they point to the specific [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets. Note that `existing_line_param_file` and `existing_line_param_output_file` point to year t-5 to reflect transmission network in previous timestep. 
-2. Please do not change the settings (i.e., last three parameters in `TEP_config.yml`), if you would like to get the same results presented in this paper. 
-3. Make sure `my_config_file_path` parameter in `TEP_setup.py` script points to the path of `TEP_config.yml` file.
-4. Run `TEP_setup.py` to create TEP model input database.
-5. Make sure `my_config_file_path` parameter in `TEP_simulation.py` script points to the path of `TEP_config.yml` file.
-6. Change `my_solver_name` parameter in `TEP_simulation.py` script so that it matches the solver you would like to use. Make sure that the solver you would like to use can be accessed via [pyomo](https://github.com/Pyomo/pyomo) package.
-7. Run `TEP_simulation.py` and analyze/compare the outputs.
-8. Restart from step 1 for every different scenario/year you would like to simulate. 
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication. 
