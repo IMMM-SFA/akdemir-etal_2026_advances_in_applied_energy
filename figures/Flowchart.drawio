@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="84sNg1tCMKQ3nM5Cb66q">
+    <mxGraphModel dx="1678" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GN25ypzZVgdjNpSGGW2_-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="210" width="110" x="235" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="otVTf3ZQd6ox57C5-vIg-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="132" x="44" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="115" width="371" x="481" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Reference&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Scenario&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="676" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-136" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="Main Scenarios" vertex="1">
+          <mxGeometry height="40" width="100" x="576" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-139" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="Models" vertex="1">
+          <mxGeometry height="40" width="125" x="576" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="676" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G-buvwPNTBCVWoABLMWI-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="491" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="6e2dGkv0XAGEneOk1Au8-24" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="Model Outputs" vertex="1">
+          <mxGeometry height="40" width="80" x="761" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6e2dGkv0XAGEneOk1Au8-25" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="Sensitivity Experiments" vertex="1">
+          <mxGeometry height="40" width="80" x="766" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="6e2dGkv0XAGEneOk1Au8-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="491" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5pxktlKROc74f7cYNXDZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;TELL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="60" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5pxktlKROc74f7cYNXDZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="60" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5pxktlKROc74f7cYNXDZ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Locational Marginal Prices&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="49" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="5pxktlKROc74f7cYNXDZ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Proportion of Unserved Energy to Demand&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="49" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5pxktlKROc74f7cYNXDZ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Number of Unserved Energy Hours&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="49" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Hourly Demand by Balancing Authority&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="579.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Hourly Demand by Balancing Authority + Data Center Demand&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="390" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-13" edge="1" parent="1" source="G-buvwPNTBCVWoABLMWI-43" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5pxktlKROc74f7cYNXDZ-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="350" as="sourcePoint" />
+            <mxPoint x="80" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-14" edge="1" parent="1" source="5pxktlKROc74f7cYNXDZ-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="EKZzfJvXx567tyuzoAcX-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="220" as="sourcePoint" />
+            <mxPoint x="200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-15" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5pxktlKROc74f7cYNXDZ-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="310" as="sourcePoint" />
+            <mxPoint x="190" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-17" edge="1" parent="1" source="5pxktlKROc74f7cYNXDZ-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="otVTf3ZQd6ox57C5-vIg-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-19" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GN25ypzZVgdjNpSGGW2_-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="320" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-20" edge="1" parent="1" source="GN25ypzZVgdjNpSGGW2_-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EKZzfJvXx567tyuzoAcX-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="415" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-25" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-10" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EKZzfJvXx567tyuzoAcX-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="410" as="sourcePoint" />
+            <mxPoint x="585" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-26" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EKZzfJvXx567tyuzoAcX-67" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="410" as="sourcePoint" />
+            <mxPoint x="698" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="202" width="595" x="257" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Demand Response through Curtailment&amp;nbsp;Sensitivity Experiments&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="557" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Data Center&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Scenarios&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="210" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Postponing 100% Nuclear and 25% Natural Gas Retirements&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="407" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Postponing Only 50% Natural Gas Retirements&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="262" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Postponing 100% Nuclear and 50% Natural Gas Retirements&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="407" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Postponing 100% Nuclear and 75% Natural Gas Retirements&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="262" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;Postponing 100% Nuclear and 100% Natural Gas Retirements&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="407" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font&gt;Postponing 100% Nuclear Retirements&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="262" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;5% Demand Available for Curtailment with 750 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="557" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;5% Demand Available for Curtailment with 500 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="702" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;5% Demand Available for Curtailment with 250 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="557" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;15% Demand Available for Curtailment with 750 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="702" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;15% Demand Available for Curtailment with 500 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="557" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;line-height: 107%;&quot;&gt;&lt;font&gt;15% Demand Available for Curtailment with 250 $/MWh Compensation&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="702" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Delayed Generator Retirements&amp;nbsp;Sensitivity Experiments&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="262" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Low Data Center Demand Growth" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="160" width="132" x="720" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Locational Marginal Prices&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="725" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Proportion of Unserved Energy to Demand&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="725" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font&gt;Number of Unserved Energy Hours&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="122" x="725" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Moderate Data Center&amp;nbsp;Demand Growth" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="High Data Center&amp;nbsp;Demand Growth" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Higher Data Center&amp;nbsp;Demand Growth" vertex="1">
+          <mxGeometry height="50" width="100" x="240" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-74" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-46" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.627;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" target="EKZzfJvXx567tyuzoAcX-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="625" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKZzfJvXx567tyuzoAcX-76" edge="1" parent="1" source="EKZzfJvXx567tyuzoAcX-48" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GN25ypzZVgdjNpSGGW2_-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="265" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

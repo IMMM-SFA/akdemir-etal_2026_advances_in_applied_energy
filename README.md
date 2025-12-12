@@ -32,6 +32,7 @@ To be updated with appropriate reference information once the paper is published
 | --- | --- | --- |
 | GO Outputs (Data center scenarios) | https://data.msdlive.org/records/jcsdw-gpt30 | https://doi.org/10.57931/2589826 |
 | GO Outputs (Reference scenarios) | https://data.msdlive.org/records/7art3-45280 | https://doi.org/10.57931/2497839 |
+| TELL Outputs (Data center scenarios) | https://data.msdlive.org/records/93tcr-68y86 | https://doi.org/10.57931/3007669 |
 
 ### Supplementary data
 All supplementary data can be found in the `supplementary_data` directory.
@@ -59,7 +60,6 @@ Use the scripts/files found in the `workflow` directory to reproduce the experim
 - Please check and make sure that all the necessary packages listed in `requirements.txt` are installed in your local Python environment.
 - Please download [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
 - Please update all the paths in the configuration files and scripts so that they point to the local paths of the downloaded [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
-- By default, transmission network optimization outputs from TEP is fed into GO and used as an input.
 
 | Script/File Name | Description |
 | --- | --- |
@@ -67,27 +67,26 @@ Use the scripts/files found in the `workflow` directory to reproduce the experim
 | `GO_simulation.py` | Script that creates GO model input database and starts GO model simulation |
 
 ### Steps of running GO
-1. Example `GO_config.yml` file includes paths to the inputs/outputs for scenario `rcp45cooler_ssp3` and year `2050`. Determine which scenario/year you would like to run and alter the paths in `GO_config.yml` so that they point to the specific [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
+1. Example `GO_config.yml` file includes paths to the inputs/outputs for `rcp45hotter_ssp3`/`low_growth`/`dr_cost_500_drup_0_drdown_15` scenario combination and the year `2035`. Determine which scenario/year you would like to run and alter the paths in `GO_config.yml` so that they point to the specific [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
 2. Make sure `my_config_file_path` parameter in `GO_simulation.py` script points to the path of `GO_config.yml` file.
 3. `my_simulation_days` parameter in `GO_simulation.py` script defaults to a full-year. If you need to simulate only a certain part of the year, adjust `my_simulation_days` accordingly.
 4. Change `my_solver_name` parameter in `GO_simulation.py` script so that it matches the solver you would like to use. Make sure that the solver you would like to use can be accessed via [pyomo](https://github.com/Pyomo/pyomo) package.
-5. Run `GO_simulation.py` and analyze/compare the outputs.
-6. Restart from step 1 for every different scenario/year you would like to simulate. 
+5. `my_dr_cost` parameter in `GO_simulation.py` script defaults to 250 $/MWh demand response compensation cost. Adjust `my_dr_cost` according to the specific scenario you would like to simulate.
+6. Run `GO_simulation.py` and analyze/compare the outputs.
+7. Restart from step 1 for every different scenario/year you would like to simulate. 
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication. 
 - Please check and make sure that all the necessary packages listed in `requirements.txt` are installed in your local Python environment.
 - Please download [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets.
 - Please update all the paths in the scripts so that they point to the local paths of the downloaded [input](#input-data)/[output](#output-data)/[supplementary](#supplementary-data) datasets. 
-- Setting `t_scenario = cooler` would produce the figures in the main body of the manuscript, whereas setting `t_scenario = hotter` would produce the figures in the supplementary information.
 
 | Figure Number | Script/File Name | Description |
 | --- | --- | --- |
-| 1 | `Experiment_flowchart.pptx` | Shows the flowchart of the modeling chain to simulate grid stress and reliability between 2020 and 2055 |
-| 2 | `Nodal_topology.py` | Plots the 125-nodal topology of GO model and three transmission planning regions of the U.S. Western Interconnection |
-| 3 | `Grid_futures.py` | Plots the changes in dispatchable generation capacity, renewable generation capacity, storage discharge capacity, intraregional transmission capacity, interregional transmission capacity, and average hourly demand between 2020-2055 |
-| 4 | `Generation_mix.py` | Plots the annual generation mix in U.S. Western Interconnection between 2020-2055 |
-| 5 | `LMP_demand_boxplots.py` | Plots the distributions of daily average LMP and daily average demand for the U.S. Western Interconnection between 2020-2055 |
-| 6 | `LMP_LOL_heatmaps.py` | Plots the yearly average LMP and yearly unserved energy to demand ratio for each U.S. Western Interconnection balancing authority and for each simulation year between 2020-2055 |
-| 7 | `Reasons_for_grid_stress.py` | Plots the demand, available renewable and storage capacities, intraregional and interregional transmission line usage, day of year and hour of day distributions of high LMP and unserved energy events considering all simulation years between 2020-2055 |
-| 8 | `Storage_net_demand_trends.py` | Plots the average hour of day trends of storage capacity utilization and net demand for each simulation year between 2020-2055 |
+| 1 | `Flowchart.drawio` | Shows the flowchart with all scenario and sensitivity experiment combinations (use https://app.diagrams.net to open the file) |
+| 2 | `LMP_Load_LOL_Duration_Curve.py` | Plots the LMP duration curves for all days and for the 10 worst (i.e., highest LMP) days of 2025, 2030, and 2035 |
+| 3 | `LMP_Load_LOL_Duration_Curve.py` | Plots the load duration curves for all days and for the 10 worst (i.e., highest load) days of 2025, 2030, and 2035 |
+| 4 | `Before_After_LMP_LOL_Map.py` | Plots the spatial distribution of yearly average LMPs in the U.S. Western Interconnection |
+| 5 | `Before_After_LMP_LOL_Map.py` | Plots the spatial distribution of the proportion of yearly unserved energy to demand in the U.S. Western Interconnection |
+| 6 | `LMP_LOL_Change_Colored_Maps.py` | Plots the spatial distribution of yearly average LMP change compared to the reference scenario |
+| 7 | `LMP_LOL_sc_bars_nums.py` | Plots the yearly average LMP, proportion of yearly unserved energy to demand, and number of yearly unserved energy hours in 2035 |
