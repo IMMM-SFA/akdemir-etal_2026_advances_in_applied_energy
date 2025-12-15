@@ -77,7 +77,7 @@ for sc in IM3_scenarios:
 for sc in IM3_scenarios:
     for yy in years:
     
-        plt.rcParams.update({'font.size': 10})
+        plt.rcParams.update({'font.size': 14})
         plt.rcParams['font.sans-serif'] = "Arial"
         plt.rcParams['axes.edgecolor'] = '#FFFFFF'
         fig,ax = plt.subplots(len(data_center_demand_scenarios),len(data_center_specific_scenarios)+1, figsize=(21,12))
@@ -127,7 +127,7 @@ for sc in IM3_scenarios:
         
         # Add single colorbar to the figure
         cbar = fig.colorbar(sm, ax=ax, shrink=0.45, pad=0.01, anchor=(0.02, 0.5), ticks=[-35,-30,-25,-20,-15,-10,-5,0,5,10,15,25,50,75,100], format=mticker.FixedFormatter(['-35','-30','-25','-20','-15','-10','-5','0','5','10','15','25','50','75','100']))
-        cbar.set_label(f'Yearly Average LMP Change in {yy} Compared to Reference Scenario (%)', rotation=90, labelpad=10)
+        cbar.set_label(f'Yearly Average LMP Change in {yy}\nCompared to Reference Scenario (%)', rotation=90, labelpad=10)
 
         plt.savefig(f'LMP_percent_maps_diverging_{sc}_{yy}.png', dpi=300, bbox_inches='tight')
         plt.show()
@@ -139,7 +139,7 @@ for sc in IM3_scenarios:
 for sc in IM3_scenarios:
     for yy in years:
     
-        plt.rcParams.update({'font.size': 10})
+        plt.rcParams.update({'font.size': 14})
         plt.rcParams['font.sans-serif'] = "Arial"
         plt.rcParams['axes.edgecolor'] = '#FFFFFF'
         fig,ax = plt.subplots(len(data_center_demand_scenarios),len(data_center_specific_scenarios)+1, figsize=(21,12))
@@ -189,7 +189,7 @@ for sc in IM3_scenarios:
         
         # Add single colorbar to the figure
         cbar = fig.colorbar(sm, ax=ax, shrink=0.45, pad=0.01, anchor=(0.02, 0.5), ticks=[0.00000001, 0.2, 0.4, 0.6, 0.8, 1], format=mticker.FixedFormatter(['0', '0.2', '0.4', '0.6', '0.8', '1']))
-        cbar.set_label(f'Proportion of Yearly Unserved Energy to Demand in {yy} (%)', rotation=90, labelpad=10)
+        cbar.set_label(f'Proportion of Yearly Unserved\nEnergy to Demand in {yy} (%)', rotation=90, labelpad=10)
 
         plt.savefig(f'LOL_ratio_maps_{sc}_{yy}.png', dpi=300, bbox_inches='tight')
         plt.show()
@@ -201,7 +201,7 @@ for sc in IM3_scenarios:
 for sc in IM3_scenarios:
     for yy in years:
     
-        plt.rcParams.update({'font.size': 10})
+        plt.rcParams.update({'font.size': 14})
         plt.rcParams['font.sans-serif'] = "Arial"
         plt.rcParams['axes.edgecolor'] = '#FFFFFF'
         fig,ax = plt.subplots(len(data_center_demand_scenarios),len(data_center_specific_scenarios)+1, figsize=(21,12))
